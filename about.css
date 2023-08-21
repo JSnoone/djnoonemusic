@@ -1,0 +1,112 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: #161616;
+    font-size: 22px;
+}
+header {
+    background-color: #161616;
+}
+.menu-bar {
+    background-color: #161616;
+    min-width: 98%;
+    margin: 0px auto;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bio {
+    display: inline-flex; 
+    align-items: center;
+}
+.menu-bio img {
+    width: 40px;
+    margin: 0px 0px;
+}
+.icons {
+    display: inline-flex; 
+    align-items: center;
+}
+.menu-bar li {
+    list-style: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: end;
+}
+.menu-bar a {    
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.menu-bar i {
+    font-size: 20px;
+}
+.menu-bar a:hover {
+    color: #8800ff;
+}
+/**/
+.back {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(./resources/img/Img-PageHome/djnoone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 22%;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.back a {
+    color: #ffffff;
+    font-size: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+.back a:hover {
+    color: #8800ff;
+}
+.text {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+.text h3 {
+    font-weight: lighter;
+}
+@media only screen and (max-device-width: 480px) {
+    .back {
+        background: none;
+    }
+    .text {
+        width: 90%; 
+    }
+}
+@media only screen and (max-device-width: 820px) {
+    .back {
+        background: none;
+    }
+    .text {
+        width: 90%;   
+    }
+}
+@media only screen and (max-device-width: 2000px) {
+    .back {
+        background: none;
+    }
+    .text {
+       width: 90%; 
+    }
+    
+}

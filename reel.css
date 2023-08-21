@@ -1,0 +1,85 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: #161616;
+    font-size: 22px;
+}
+header {
+    background-color: #161616;
+}
+.menu-bar {
+    background-color: #161616;
+    width: 97%;
+    margin: 0px auto;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bio {
+    display: inline-flex; 
+    align-items: center;
+}
+.menu-bio img {
+    width: 40px;
+    margin: 0px 0px;
+}
+.icons {
+    display: inline-flex; 
+    align-items: center;
+}
+.menu-bar li {
+    list-style: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: end;
+}
+.menu-bar a {    
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.menu-bar i {
+    font-size: 20px;
+}
+.menu-bar a:hover {
+    color: #8800ff;
+}
+@media only screen and (max-device-width: 480px) {
+    /* write smartphone styles here */
+    .menu-bio img {
+        display: none;
+    }
+    .menu-bar {
+        justify-content: start;
+        width: 50%;
+    }
+    .menu-bio {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 820px) {
+    /* tablets in portrait mode */
+    .menu-bar {
+        width: 90%;
+    }
+}
+.reel {
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0px;
+}
+.reel h1 {
+    color: #fff;
+    margin-bottom: 70px;
+}
+.compensar {
+    width: 900px;
+    height: 470px;
+}
