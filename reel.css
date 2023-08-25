@@ -68,7 +68,7 @@ header {
 .reel {
     background-color: #000;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,8 @@ header {
     color: #fff;
     margin-bottom: 70px;
 }
-.compensar {
-    width: 900px;
-    height: 470px;
+.reel iframe {
+    width: 30%;
+    height: 40%;
+    margin: 20px 0px;
 }
