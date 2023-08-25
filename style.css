@@ -350,7 +350,7 @@ section {
 .brands li {
     list-style: none;
     display: inline-flex;
-    margin: 0px 40px;
+    margin: 15px 40px;
 }
 @media only screen and (max-device-width: 480px) {
     /* write smartphone styles here */
